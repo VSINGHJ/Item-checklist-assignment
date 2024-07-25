@@ -1,0 +1,79 @@
+body {
+    background-color: wheat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#item {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#add-button {
+    padding: 10px 20px;
+    border-radius: 15%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#container {
+    border: 10px solid brown; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: silver;
+}
+
+
+#todo-list {
+    margin-top: 20px;
+    width: 100%;
+    list-style-position: inside; /* This ensures the list numbers are inside the box */
+    max-width: 500px;
+    margin: 20px auto;
+}
+#input-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item button {
+    background-color: black;
+    border-radius: 15%;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item input[type="checkbox"] {
+    margin-right: 10px;
+}
